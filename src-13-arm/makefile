@@ -60,7 +60,7 @@ PYTHON_VERSION=3.9
 
 #path configuration
 BUILD_PREFIX=$(shell pwd)/build
-PREFIX=/Applications/Postgres.app/Contents/Versions/$(POSTGRES_MAJOR_VERSION)
+PREFIX=/Applications/Postgres.app/Contents/Versions/$(POSTGRES_MAJOR_VERSION)-arm
 PATH=$(PREFIX)/bin:/bin:/usr/bin:/opt/local/bin
 PKG_CONFIG_LIBDIR=$(PREFIX)/lib/pkgconfig
 
